@@ -27,9 +27,9 @@
                 <h1 class="title">Philip Glass Center for the Arts, Science, and the Environment</h1>
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Donate</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#donate">Donate</a></li>
                     </ul>
                 </nav>
             </header>
@@ -40,21 +40,29 @@
 
         <div class="main-container">
             <div class="main wrapper clearfix">
+                <div id="home" class="page active">
+                    <article>
+                        <blockquote>“The Glass Center will be our home – a place where artists, scientists, and conservationists will come to learn and work together to produce a culture of renewal for our time. This work will become a forum, which will contribute to the public good and finally, stand as a true cultural center for today and the future.” – Philip Glass</blockquote>
+                    </article>
 
-                <article>
-                    <blockquote>“The Glass Center will be our home – a place where artists, scientists, and conservationists will come to learn and work together to produce a culture of renewal for our time. This work will become a forum, which will contribute to the public good and finally, stand as a true cultural center for today and the future.” – Philip Glass</blockquote>
-                </article>
-
-                <aside>
-                    <iframe id="youtube-video" width="100%" height="100%" src="//www.youtube.com/embed/lPUQiaV_Ph8?rel=0" frameborder="0" allowfullscreen></iframe>
-                </aside>
+                    <aside>
+                        <iframe id="youtube-video" width="100%" height="100%" src="//www.youtube.com/embed/lPUQiaV_Ph8?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </aside>
+                </div><!-- home -->
+                <div id="about" class="page">
+                    <h1>About Page</h1>
+                </div>
+                <div id="donate" class="page">
+                    <h1>Donate Page</h1>
+                </div>
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->
 
         <div class="footer-container">
             <footer class="wrapper">
-                <p>&copy; 2014 Philip Glass Center for the Arts, Science, and the Environment, a 501c3 organization.</p>
+                <p id="copyright">&copy; 2014 Philip Glass Center for the Arts, Science, and the Environment, a 501c3 organization.</p>
+                <p id="contact"><a href="mailto:info@philipglasscenter.org" target="_blank">Contact Us</a>.</p>
             </footer>
         </div>
 

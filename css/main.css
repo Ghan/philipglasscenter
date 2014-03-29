@@ -65,7 +65,7 @@ textarea {
 
 body {
     font: 16px/26px 'Lato', Helvetica, Helvetica Neue, Arial;
-    margin: 0 0 80px; 
+    margin: 0 0 9em; 
 }
 
 h1, h2, h3, h4, h5, nav {
@@ -108,8 +108,9 @@ h1, h2, h3, h4, h5, nav {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 80px;
+    height: 9em;
     width: 100%;
+    overflow: auto;
 }
 
 .footer-container,
@@ -138,6 +139,15 @@ h1, h2, h3, h4, h5, nav {
     bottom: 0
     left:0;
     right: 0;
+}
+#copyright{
+    display: inline-block;
+    float: left;
+
+}
+#contact{
+    display: inline-block;
+    float: right;
 }
 
 /* ==============
@@ -171,6 +181,13 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.page{
+    display: none;
+}
+.page.active{
+    display: block;
+}
+
 /* ==============
     MOBILE: Main
    ============== */
@@ -190,7 +207,7 @@ nav a:hover {
 
 .footer-container footer {
     color: inherit;
-    padding: 10px 0;
+    padding: 0;
 }
 
 /* ===============
@@ -307,8 +324,11 @@ nav a:hover {
         padding-bottom: 28.125%;
     }
 
-    #youtube-video{
-        
+    body{
+        margin: 0 0 4em;
+    }
+    .footer-container{
+        height: 4em;
     }
 
 }
