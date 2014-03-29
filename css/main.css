@@ -75,18 +75,37 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 5px solid #EEE;
+}
+
+.header-container .title{
+    display: inline-block;
+    background: url('../img/logo.png') no-repeat;
+    background-size: contain;
+    max-width: 380px;
+    width: 100%;
+    height: 110px;
+    text-indent: -9999px;
+    margin: .25em 0;
+}
+
+#header-image-container{
+    display: none;
+}
+#header-image{
+    width:100%;
+    height: auto;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #EEE;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #DDD;
 }
 
 .title {
@@ -104,20 +123,20 @@ nav ul {
 
 nav a {
     display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
+    margin: .25em;
+    height: 110px;
 
     text-align: center;
     text-decoration: none;
     font-weight: bold;
 
-    color: white;
-    background: #e44d26;
+    color: inherit;
+    background: inherit;
 }
 
 nav a:hover,
 nav a:visited {
-    color: white;
+    color: inherit;
 }
 
 nav a:hover {
