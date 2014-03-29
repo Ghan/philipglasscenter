@@ -13,6 +13,8 @@ html {
     line-height: 1.4;
     position: relative;
     min-height: 100%;
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
 }
 
 ::-moz-selection {
