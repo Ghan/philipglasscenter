@@ -11,6 +11,8 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
+    position: relative;
+    min-height: 100%;
 }
 
 ::-moz-selection {
@@ -63,6 +65,7 @@ textarea {
 
 body {
     font: 16px/26px 'Lato', Helvetica, Helvetica Neue, Arial;
+    margin: 0 0 100px; 
 }
 
 h1, h2, h3, h4, h5, nav {
@@ -99,6 +102,14 @@ h1, h2, h3, h4, h5, nav {
 #header-image{
     width:100%;
     height: auto;
+}
+
+.footer-container{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
 }
 
 .footer-container,
@@ -178,7 +189,7 @@ nav a:hover {
 }
 
 .footer-container footer {
-    color: white;
+    color: inherit;
     padding: 20px 0;
 }
 
