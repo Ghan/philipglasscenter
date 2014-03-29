@@ -116,6 +116,19 @@ h1, h2, h3, h4, h5, nav {
     color: white;
 }
 
+.main aside{
+    height: 0;
+    padding-bottom: 28.125%;
+    position: relative;
+}
+#youtube-video{
+    position: absolute;
+    top: 0;
+    bottom: 0
+    left:0;
+    right: 0;
+}
+
 /* ==============
     MOBILE: Menu
    ============== */
@@ -232,6 +245,14 @@ nav a:hover {
     .oldie nav a {
         margin: 0 0.7%;
     }
+/* ========================
+    INTERMEDIATE: Other
+   ======================== */  
+
+    #youtube-video{
+
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -273,6 +294,11 @@ nav a:hover {
         float: right;
         width: 49%;
     }
+
+    #youtube-video{
+        
+    }
+
 }
 
 @media only screen and (min-width: 1140px) {
@@ -280,7 +306,9 @@ nav a:hover {
 /* ===============
     Maximal Width
    =============== */
-
+    #youtube-video{
+       
+    }
     .wrapper {
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
