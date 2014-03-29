@@ -65,7 +65,7 @@ textarea {
 
 body {
     font: 16px/26px 'Lato', Helvetica, Helvetica Neue, Arial;
-    margin: 0 0 100px; 
+    margin: 0 0 80px; 
 }
 
 h1, h2, h3, h4, h5, nav {
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, nav {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 100px;
+    height: 80px;
     width: 100%;
 }
 
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, nav {
 
 .main aside{
     height: 0;
-    padding-bottom: 28.125%;
+    padding-bottom: 56.25%;
     position: relative;
 }
 #youtube-video{
@@ -190,7 +190,7 @@ nav a:hover {
 
 .footer-container footer {
     color: inherit;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 /* ===============
@@ -304,6 +304,7 @@ nav a:hover {
     .main aside {
         float: right;
         width: 49%;
+        padding-bottom: 28.125%;
     }
 
     #youtube-video{
