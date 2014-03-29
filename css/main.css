@@ -83,6 +83,19 @@ h1, h2, h3, h4, h5, nav {
 
 .header-container {
     border-bottom: 5px solid #EEE;
+    background: url("../img/proposed-center.jpg") no-repeat;
+    background-size: cover;
+
+    -webkit-transition: padding-bottom 300ms ease-in-out;
+    -moz-transition: padding-bottom 300ms ease-in-out;
+    -o-transition: padding-bottom 300ms ease-in-out;
+    transition: padding-bottom 300ms ease-in-out;
+
+    padding-bottom: 0%;
+}
+.header-container:hover{
+    height: 10em;
+    padding-bottom: 30%;
 }
 
 .header-container .title{
@@ -118,9 +131,7 @@ h1, h2, h3, h4, h5, nav {
     border-top: 5px solid #EEE;
 }
 
-.header-container,
-.footer-container,
-.main aside {
+.footer-container{
     background: #DDD;
 }
 
