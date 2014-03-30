@@ -11,8 +11,9 @@ $(function(){
 		$(".page").removeClass("active");
 		$(".header-container").removeClass("open");
 		$(page).addClass("active");
+		if(page === "#home") $(".header-container").addClass("open");
 	});
-	
+
 	$("#logo").click(function(){
 		$(".header-container").addClass("open");
 		$(".page").removeClass("active");
