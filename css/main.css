@@ -79,6 +79,10 @@ h1, h2, h3, h4, h5, nav {
     margin: 0 5%;
 }
 
+#logo{
+    cursor: pointer;
+}
+
 /* ===================
     ALL: Ghan Theme
    =================== */
@@ -88,14 +92,14 @@ h1, h2, h3, h4, h5, nav {
     background: url("../img/proposed-center.jpg") no-repeat;
     background-size: cover;
 
-    -webkit-transition: padding-bottom 300ms ease-in-out;
-    -moz-transition: padding-bottom 300ms ease-in-out;
-    -o-transition: padding-bottom 300ms ease-in-out;
-    transition: padding-bottom 300ms ease-in-out;
+    -webkit-transition: padding-bottom 600ms ease-in-out;
+    -moz-transition: padding-bottom 600ms ease-in-out;
+    -o-transition: padding-bottom 600ms ease-in-out;
+    transition: padding-bottom 600ms ease-in-out;
 
     padding-bottom: 0%;
 }
-.header-container:hover{
+.header-container.open{
     height: 10em;
     padding-bottom: 30%;
 }
@@ -153,6 +157,35 @@ h1, h2, h3, h4, h5, nav {
     left:0;
     right: 0;
 }
+blockquote{
+    position: relative;
+    font-style:italic;
+    font-weight: 300;
+    font-size:1.1em;
+    text-align: justify;
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+  
+  /*Positioning*/
+  position: absolute;
+  left: -40px;
+  top: 15px;
+}
+.pglass-line{
+    float: right;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.125em;
+}
+
 #copyright{
     display: inline-block;
     float: left;
@@ -161,6 +194,15 @@ h1, h2, h3, h4, h5, nav {
 #contact{
     display: inline-block;
     float: right;
+}
+
+/* ==============
+    DONATE PAGE
+   ============== */
+
+.donate-info{
+    font-weight: 300;
+    font-style: italic;
 }
 
 /* ==============
