@@ -243,6 +243,19 @@ nav a:hover {
     display: block;
 }
 
+#announcement{
+    float: right;
+    font-size: 1.3em;
+    padding-right: 20px;
+}
+#announcement a{
+    text-decoration: none;
+    color: rgb(206, 1, 1);
+}
+#announcement a:hover{
+    text-decoration: underline
+}
+
 /* ==============
     MOBILE: Main
    ============== */
